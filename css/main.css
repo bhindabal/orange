@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	font-family: 'Hind', sans-serif;
+}
+
+
+nav {
+	font-family: 'Hind', cursive;
+	color: white;
+	font-size: 18px;
+	background-color: #fe7e00;
+	height: 70px;
+	width: 100% auto;
+
+}
+
+.left {
+	margin-left: 25px;
+	float: left;
+	display: inline-block;
+	margin-top: 10px;
+	opacity: 0.83;
+
+}
+
+.left:hover {
+	opacity: 1;
+	transition: 0.3s ease-in-out;
+}
+
+.right {
+	float: right;
+	margin-top: 17px;
+}
+
+nav p {
+	display: inline-block;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+nav sup {
+	font-size: 8px;
+}
+
+nav span {
+	font-family: 'Baloo Bhai', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+nav a:hover {
+	color: #fecd00;
+	transition: 0.3s ease-in-out;
+}
+.color {
+	background-color: #f8f8f8;
+	height: 600px;
+}
+
+.bar {
+	float: right;
+	margin-right: 35px;
+	background-color: #f0f0ee;
+	margin-top: 5px;
+	
+}
+
+.bar input {
+	background: transparent;
+	border: transparent;
+	margin-bottom: 15px;
+	text-align: left;
+	padding-top: 15px;
+	padding-left:25px;
+	padding-bottom: 5px;
+	letter-spacing: 1px;
+	width: 145px;
+}
+
+.bar img {
+	height: 15px;
+	width: auto;
+	float: right;
+	padding-top: 15px;
+	padding-right: 15px;
+
+}
+
+.body {
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 auto;
+	width: 100%
+}
+
+.body img {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.content {
+	display: inline-block;
+	color: #fe7e00;
+	font-weight: lighter;
+	height: 210px;
+	width: 100% auto;
+
+}
+
+.content p {
+	margin-bottom: 60px;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+
+
+.body .bold {
+	font-family: 'Baloo Bhai', sans-serif;
+}
+
+.body .grey {
+	color: #7accc8;
+	font-family: 'Baloo Bhai', sans-serif;
+}
+
+.body sup {
+	font-size: 11px;
+}
+
+.color .quote:hover {
+	color: #fecd00;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.color .studies:hover {
+	color: #b5dae5;
+	cursor:pointer;
+	transition: 0.3s ease-in-out;
+}
+
+
+button {
+	margin-right: 25px;
+	height: 50px;
+	width: 200px;
+	color: white;
+	border: transparent;
+	border-radius: 4px;
+	font-size: 15px;
+}
+
+.quote {
+	background-color: #fe7e00;
+}
+
+.studies {
+	background-color: #7accc8;
+}
+
+footer {
+	height: 70px;
+	background-color: #7accc8;	
+}
